@@ -2,12 +2,13 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <img alt="Vue logo" src="./assets/Pirate.png">
-    <ListaDivisas titulo="Lista divisas!!" />
+    <ListaDivisas titulo="Lista divisas!!!" />
   </div>
 </template>
 
 <script>
 import ListaDivisas from "./components/ListaDivisas";
+
 export default {
   name: 'App',
   components: {
